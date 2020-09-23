@@ -10,7 +10,7 @@ public class JLabelCoche extends JLabel {
 
 	public static void main(String[] args) {
 		JLabel coche = new JLabel();
-		coche.setIcon(new ImageIcon("/Practica0/coche.png"));
+		coche.setIcon(new ImageIcon("src/Practica0/coche.png"));
 		coche.setSize(100, 100);
 	}
 	
